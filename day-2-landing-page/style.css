@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(19, 18, 18);
+    color: silver;
+}
+
+#nav-bar{
+    display: flex;
+    justify-items: right;
+}
+
+.nav-list{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+}
+
+#nav-bar{
+    background-color: rgb(151, 50, 245);
+    padding: 10px 20px;
+    margin-bottom: 40px;
+
+}
+
+.logo{
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.kurtis-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+#kurtis-name{
+    font-size: 50px;
+    padding-left: 220px;
+}
+
+#kurtis-photo{
+    float: right;
+    padding-right: 18px;
+
+}
+
+
+
