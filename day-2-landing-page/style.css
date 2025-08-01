@@ -45,19 +45,19 @@ body {
 
 #kurtis-name {
     font-size: 50px;
-    padding-left: 180px;
+    margin: 0px auto 0px auto;
 }
 
 #kurtis-photo {
     float: right;
-    padding-right: 18px;
-    padding-top: 26px;
+    margin: 40px auto 20px auto;
 
 }
 
 #about-me {
     text-align: center;
     margin-top: 40px;
+    margin-bottom: 40px;
     font-size: 34px;
 }
 
@@ -77,6 +77,8 @@ body {
     color: rgb(15, 15, 15);
     font-size: 24px;
     margin-bottom: 15px;
+    text-align: justify;
+    line-height: 1.1;
 }
 
 .cta-button {
