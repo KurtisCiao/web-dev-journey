@@ -1,0 +1,25 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+#colorName {
+    margin-left: 18px;
+}
+
+#changeBtn {
+    padding: 12px 24px;
+    border-radius: 24px;
+    border: none;
+    font-weight: bold;
+    margin: 4px;
+
+}
+
+transition {
+    background-color: 200ms ease;
+}
