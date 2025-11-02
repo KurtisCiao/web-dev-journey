@@ -6,20 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>leveling system</title>
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
         <nav>
             <ul class="profile">
-                <li><span class="profile-pic">picture</span></li>
-                <li><span class="name">Kurtis</span></li>
-                <li><span class="level">Level 13</span></li>
+                <li>
+                    <div class="profile-pic"></div>
+                </li>
+                <li>
+                    <div class="name">Kurtis</div>
+                </li>
+                <li>
+                    <div class="lvl-text">Lv. 13</div>
+                </li>
             </ul>
 
             <ul class="profile-right">
-                <li><span class="exp">Exp</span></li>
-                <li><span class="exp-bar">30/100</span></li>
+                <div class="xp-bar">
+                    <div class="xp-fill"></div>
+                </div>
+                <li>
+                    <div class="xp-text">30/100 XP</div>
+                </li>
             </ul>
         </nav>
 
@@ -27,37 +43,42 @@
 
     <div class="quest-window">
         <div class="quest-window-box">
-            <div class="quest-info">QUEST INFO</div>
-            <div class="daily-quest"><span>DAILY QUEST - TRAIN TO BECOME A FORMIDABLE COMBATANT.</span></div>
+            <div class="quest-info">
+                <h2>QUEST INFO</h2>
+            </div>
+            <div class="daily-quest">
+                <h5>DAILY QUEST - TRAIN TO BECOME A FORMIDABLE COMBATANT.</h5>
+            </div>
             <div class="goals">GOALS</div>
 
             <div class="activities-box">
-                <div class="exercise-1">
-                    <div class="pushups">
-                        <h4>PUSHUPS</h4>
+                    <div class="exercise">
+                        <div class="pushups">
+                            <h4>PUSHUPS</h4>
+                        </div>
+                        <div class="reps">[0/100]</div>
                     </div>
-                    <div class="reps">[0/100]</div>
-                </div>
-                <div class="exercise-2">
-                    <div class="pull-ups">
-                        <h4>PULL-UPS</h4>
+                    <div class="exercise">
+                        <div class="pull-ups">
+                            <h4>PULL-UPS</h4>
+                        </div>
+                        <div class="reps">[0/100]</div>
                     </div>
-                    <div class="reps">[0/100]</div>
-                </div>
-                <div class="exercise-3">
-                    <div class="squats">
-                        <h4>SQUATS</h4>
+                    <div class="exercise">
+                        <div class="squats">
+                            <h4>SQUATS</h4>
+                        </div>
+                        <div class="reps">[0/100]</div>
                     </div>
-                    <div class="reps">[0/100]</div>
-                </div>
-                <div class="exercise-4">
-                    <div class="run">
-                        <h4>RUN</h4>
+                    <div class="exercise">
+                        <div class="run">
+                            <h4>RUN</h4>
+                        </div>
+                        <div class="distance">[0/5km]</div>
                     </div>
-                    <div class="distance">[0/5km]</div>
-                </div>
+                <div class="caution"><span class="caution-highlight">CAUTION</span> - IF THE DAILY QUEST REMAINS
+                    INCOMPLETE, PENALTIES WILL BE GIVEN ACCORDINGLY.</div>
             </div>
-            <div class="caution"><span class="caution-highlight">CAUTION</span> - IF THE DAILY QUEST REMAINS INCOMPLETE, PENALTIES WILL BE GIVEN ACCORDINGLY.</div>
         </div>
     </div>
 </body>

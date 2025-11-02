@@ -15,6 +15,7 @@ nav {
     height: 40px;
     justify-content: space-between;
     color: silver;
+    font-family: 'poppins', sans-serif;
 }
 
 .profile {
@@ -25,8 +26,52 @@ nav {
     padding-left: 50px;
 }
 
+/* .profile-pic {
+    background-color: #333;
+    width: 25px;
+    height: 25px;
+    border-radius: 360px;
+} */
+
 .profile li {
     padding: 4px;
+}
+
+.profile li .lvl-text {
+    padding: 0%;
+}
+
+.name {
+    font-weight: 550;
+}
+
+.lvl-text {
+    font-weight:300;
+    font-size: 16px;
+    padding-left: 12px;
+}
+
+.xp-bar {
+    position: relative;
+    width: 150px;
+    height: 12px;
+    background-color: #333;
+    border-radius: 6px;
+    overflow: hidden;
+    /* box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.5); */
+}
+
+.xp-fill {
+    height: 100%;
+    background: linear-gradient(95deg, #120c49, #0004ff);
+    width: 30%;
+    transition: width 0.5s ease-out;
+}
+
+.xp-text {
+    font-size: 12px;
+    font-weight: bold;
+    color: #aaa;
 }
 
 .profile-right {
@@ -81,7 +126,7 @@ nav {
     align-items:center;
     justify-content: flex-start;
     padding-top: 24px;
-
+    font-family: 'poppins', sans-serif;
 }
 
 .quest-info {
@@ -94,6 +139,10 @@ nav {
     align-items: center;
     justify-content: center;
     margin-bottom: 28px;
+    color: #cce0ff;
+    text-shadow: 
+        0 0 5px #0ff,
+        0 0 10px #0ff;
 }
 
 .quest-info::before,
@@ -118,11 +167,23 @@ nav {
     bottom: 0;
 }
 
+.quest-info h2 {
+    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
 .daily-quest {
-    margin-bottom: 28px;
-    justify-content: center;
+    padding-bottom: 10px;
+    justify-self: center;
     align-items: center;
     text-align: center;
+}
+
+.daily-quest h5 {
+    margin: 0%;
+    padding: 14px;
+    font-weight: 550;
+    font-size: 0.9rem;
 }
 
 .goals {
@@ -138,13 +199,28 @@ nav {
     align-items: center;
     width: 100%;
     padding-bottom: 14px;
+    font-family: 'poppins', sans-serif;
 }
 
-.exercise-1, .exercise-2, .exercise-3, .exercise-4 {
+.reps {
+    font-size: 15px;
+}
+
+.distance {
+    font-size: 15px;
+}
+
+.exercise {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 74%;
+}
+
+.activities-box h4 {
+    margin: 0%;
+    padding: 14px;
+    font-weight: 550;
 }
 
 .caution {
