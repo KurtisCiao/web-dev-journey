@@ -26,7 +26,7 @@
                     <div class="name">Kurtis</div>
                 </li>
                 <li>
-                    <div class="lvl-text">Lv. 13</div>
+                    <div class="lvl-text">Lv. 0</div>
                 </li>
             </ul>
 
@@ -35,7 +35,7 @@
                     <div class="xp-fill"></div>
                 </div>
                 <li>
-                    <div class="xp-text">30/100 XP</div>
+                    <div class="xp-text">0/100 XP</div>
                 </li>
             </ul>
         </nav>
@@ -53,37 +53,45 @@
             <div class="goals">GOALS</div>
 
             <div class="activities-box">
-                    <div class="exercise">
-                        <div class="pushups">
-                            <h4>PUSHUPS</h4>
-                        </div>
-                        <div class="reps">[0/100]</div>
+                <div class="exercise">
+                    <div data-name="pushups" data-desc="Push-ups are great for building your chest and triceps.">
+                        <h4>PUSHUPS</h4>
                     </div>
-                    <div class="exercise">
-                        <div class="pull-ups">
-                            <h4>PULL-UPS</h4>
-                        </div>
-                        <div class="reps">[0/100]</div>
+                    <div class="reps">[0/100]</div>
+                </div>
+                <div class="exercise">
+                    <div data-name="pull-ups" data-desc="Pull-ups are one of the greatest upper body exercise.">
+                        <h4>PULL-UPS</h4>
                     </div>
-                    <div class="exercise">
-                        <div class="squats">
-                            <h4>SQUATS</h4>
-                        </div>
-                        <div class="reps">[0/100]</div>
+                    <div class="reps">[0/100]</div>
+                </div>
+                <div class="exercise">
+                    <div data-name="squats" data-desc="Squats is a great body weight training for your lengs.">
+                        <h4>SQUATS</h4>
                     </div>
-                    <div class="exercise">
-                        <div class="run">
-                            <h4>RUN</h4>
-                        </div>
-                        <div class="distance">[0/5km]</div>
+                    <div class="reps">[0/100]</div>
+                </div>
+                <div class="exercise">
+                    <div data-name="run" data-desc="Running gives you a full body exercise but also train your indurance.">
+                        <h4>RUN</h4>
                     </div>
-                <div class="caution"><span class="caution-highlight">CAUTION</span> - IF THE DAILY QUEST REMAINS
-                    INCOMPLETE, PENALTIES WILL BE GIVEN ACCORDINGLY.</div>
+                    <div class="distance">[0/5km]</div>
+                </div>
+            </div>
+            <div class="caution"><span class="caution-highlight">CAUTION</span> - IF THE DAILY QUEST REMAINS
+                INCOMPLETE, PENALTIES WILL BE GIVEN ACCORDINGLY.
             </div>
         </div>
     </div>
     <div class="message-window">
-        <h4>New quest created!</h4>
+        <h4>New quest generated</h4>
+    </div>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <h2 id="popup-title"></h2>
+            <p id="popup-desc"></p>
+            <button id="close-btn">Close</button>
+        </div>
     </div>
 </body>
 
