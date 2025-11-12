@@ -287,16 +287,18 @@ nav {
 }
 
 .popup-content {
-    background: white;
+    background: radial-gradient(circle at center, #0f1e3b, #27496D);
     padding: 25px;
     border-radius: 8px;
     width: 300px;
     max-width: 80%;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
     text-align: center;
+    font-family: 'poppins', sans-serif;
+    color: silver;
 }
 
-.popup-show {
+.popup.show {
     display: flex;
 }
 
